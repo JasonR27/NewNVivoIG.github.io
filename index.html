@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/bbf0c2952d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./stylesheets/main.css">
+  </link>
+  <title>New NVivo Installation Guide</title>
+</head>
+
+<body id="realTimeContents" class="NVivoTheme">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="scripts/darkMode.js"></script>
+  <script type="text/javascript" src="scripts/toggleNavigationMenuView.js"></script>
+  <!-- <script type="text/javascript" src="scripts/searchbar.js"></script> -->
+
+
+  <input type="button" id="HideMenuButton" class="NMview" onclick="NMview()" value="Hide Menu"></input>
+  <nav id="navbar">
+    <header id="menutitle">
+      <p>New Nvivo</p>
+      <p>Installation Guide Menu</p>
+    </header>
+    <ul>
+      <li><a class="nav-link" href="#introducción">Introducción</a></li>
+      <li><a class="nav-link" href="#antesDeComenzar">Antes de Comenzar</a></li>
+      <li><a class="nav-link" href="#RequisitoDeSistema">Requisitos de Sistema</a></li>
+      <li><a class="nav-link" href="#descargueElInstalador">Descargue el Instalador</a></li>
+      <li><a class="nav-link" href="#pasosParaLaInstalacion">Pasos para la Instalación</a></li>
+      <li><a class="nav-link" href="#Paso1">1. Confirmar su cuenta en MyNVivo</a></li>
+      <li><a class="nav-link" href="#ingresoAlPortal">Ingreso al Portal</a></li>
+      <li><a class="nav-link" href="#forgotYourPassword">Forgot your Password</a></li>
+      <li><a class="nav-link" href="#Paso2">2. Instalación del software</a></li>
+      <li><a class="nav-link" href="#Paso3">3. Activar su licencia</a></li>
+      <li><a class="nav-link" href="#Paso4">4. Desactivar y trasladar su licencia</a></li>
+      <li><a class="nav-link" href="#Contact_Info">Contactanos</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <div id="welcomeSection">
+      <img id="wSImg" class="" src="images/NVivoLogoNobackground.png" alt="Nvivo Logo"></img>
+      <div>
+        <p id="insGuide">Guía de instalación New NVivo</p>
+        <p id="licenciaDeUsuario">Licencia de usuario individual o Single User</p>
+      </div>
+    </div>
+
+    <button id="dark-mode" class="switch" onclick="darkmode()" data-switch-dark aria-hidden>Dark Mode</button>
+
+
+    <section class="main-section" id="introducción">
+      <div class="searchContend_h">
+        <div class="ui-grid-c">
+          <div class="ui-block-a">
+            <input name="text-12" id="text-12" value="" type="text" class="textSearchvalue_h" />
+          </div>
+          <!-- <span>The Search Bar has some bugs, I need to extract the html tags out of the search to remove the bug where
+            the whole page looks completely messed up after searching a piece of text that appears inside a tag, because
+            at the time of finding and highlighting the text the algorithm is editing the html tags on the dom, not just their content text, thus, messing up the whole layout</span> -->
+          <div id="search-bar-buttons">
+            <div class="ui-block-b">
+              <a href="#" id="SBbuttons" class="searchButtonClickText_h">Buscar</a>
+            </div>
+            <div class="ui-block-c">
+              <a href="#" id="SBbuttons" class="next_h">Siguiente</a>
+            </div>
+            <div class="ui-block-d">
+              <a href="#" id="SBbuttons" class="previous_h">Anterior</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header>Introducción</header>
+
+      <p id="parrafoBienvenida">Bienvenido a la guía de instalación de New NVivo. A continuación, tendrá la explicación
+        paso a paso para la correcta instalación del software.</p>
+      <h1 id="titles" class="mainSectionTitles">Antes de Comenzar</h1>
+      <p style="font-size: 2rem;" id="RequisitoDeSistema">Lo primero que debe tener en cuenta es que la computadora en
+        la que va a instalar cumpla
+        con los siguientes requisitos:</p>
+      <img id="requirimientosDeSistema" src="images/Requirimientos de Sistema.png" alt="Requirimientos de Sistema"
+        width="50%" height="200"></img>
+      <h2 class="importante">Importante</h2>
+      <div id="informacionImportante">
+        <p class="border-box">Si usted cuenta con una licencia de New NVivo para Windows, esta podrá ser activada
+          igualmente en Mac OS siempre y cuando se cumpla el acuerdo de uso. Las licencias adquiridas
+          para Mac, solamente funcionarán sobre esa plataforma.
+          Usted puede activar NVivo en un <b>máximo de dos dispositivos</b> para la misma cuenta de usuario
+          siempre y cuando no sea para uso simultáneo.</p>
+        <b>Para otros tipos de licenciamiento como licencias multiusuario o campus por favor revisar la
+          guía correspondiente según su tipo de licencia:</b>
+        <li>Guía de instalación para licencia multiusuario.</li>
+        <li>Guía de instalación para licencia campus.</li>
+
+        <p id="pasosParaLaInstalacion" class="border-box">Por favor verifique la información recibida en su correo
+          electrónico y tenga a la
+          mano:
+          Una vez verificados estos aspectos, podrá iniciar la instalación.</p>
+        <li>Instalador de New NVivo (de acuerdo al sistema operativo)</li>
+        <li>Información del cliente registrado en el documento de compra (Nombre y correo
+          electrónico)</li>
+        <a id="descargueElInstalador" class="downloadLinks"
+          href="https://5f5042361b05f9ffe3d5-02d87b65c94206e6108b071950d8e892.ssl.cf2.rackcdn.com/NewNVivo-26-Dic-2020.x64.exe"
+          target="_blank" rel="nofollow noopener noreferrer">Descargue el Instalador de NVivo para Windows aquí</a>
+        <p class="border-box">Una vez verificados estos aspectos, podrá iniciar la instalación</p>
+
+      </div>
+      <h2 id="Paso1" class="mainSectionTitles">1. Confirmar su cuenta en MyNVivo</h2>
+      <p>Para activar NVivo usted debe tener una cuenta en el portal MyNVivo, la cual se creará
+        automáticamente <b>con la información del cliente registrado en el documento de compra</b>
+        (Nombre y correo electrónico).</p>
+      <p class="border-box">Para poder tener acceso a su cuenta, ingrese al portal MyNVivo con el fin de actualizar
+        su contraseña. Por favor digite el correo electrónico y haga clic en CONTINUE.</p>
+      <div id="promptIngresoalPortal">
+        <b id="ingresoAlPortal">Ingreso al portal MyNVivo:</b>
+        <a id="ingresoAlPortal" href="https://account.mynvivo.com/" target="_blank"
+          rel="nofollow noopener noreferrer">https://account.mynvivo.com/</a>
+
+        <img id="ingresoPortalMyNvivo" src="images/ingresoAlPortalNvivo.png"
+          alt="Captura de pantalla de la pagina de ingreso al Portal MyNvivo"></img>
+      </div>
+      <div id="rowFlexBox">
+        <div id="forgotYourPassword"></div>
+        <p class="border-box">Si es la primera vez que accede a la
+          cuenta, utilice la opción <b>FORGOT YOUR
+            PASSWORD? - CLICK HERE</b> para restaurar su
+          contraseña.</p>
+        <img id="imgright" class="forgotPassImg" src="images/Page 3 Image 1.png"
+          alt="Forgot your Password? Click Here portal"></img>
+      </div>
+
+      <p id="emailSeraEnviadoP" class="border-box">
+        Se enviará automáticamente un <b>CORREO ELECTRÓNICO</b> al mail registrado, siga los pasos
+        y defina una nueva contraseña. Tenga en cuenta que, en algunas ocasiones, el correo
+        puede tardar unos minutos en llegar. Si no recibe el correo electrónico por favor revise
+        la carpeta de SPAM de su mail. Igualmente, puede buscar este correo con las palabras
+        clave “team NVivo” o “Password Reset”.</p>
+
+      <div id="rowFlexBox">
+        <img id="imgleft" class="forgotPassImg" src="images/Page 3 Image 2.png"
+          alt="Password change request prompt"></img>
+        <p class="border-box">
+          Tenga en cuenta que la nueva clave debe tener al menos 8 caracteres de longitud, y
+          al menos tres de los siguientes tipos de caracteres: Letras minúsculas, letras mayúsculas,
+          números y caracteres especiales (por ejemplo, !@#$%&*). <b>Por favor asegúrese de conservar
+            la nueva contraseña.</b></p>
+      </div>
+
+      <p class="border-box">La confirmación de la cuenta de NVivo le permitirá activar su nuevo software.</p>
+      <p id="notesParagraph" class="border-box">
+        <b id="notes">Nota:</b> <b>En caso de no recibir el correo electrónico</b> para cambiar su contraseña, acceda a
+        <a href="https://account.mynvivo.com/signup/nvivo-id" target="_blank"
+          rel="nofollow noopener noreferrer">https://account.mynvivo.com/signup/nvivo-id</a>
+        para la creación de una nueva cuenta, esta
+        debe ser creada con el correo registrado en el documento de compra.
+      </p>
+
+      <h2 id="Paso2" class="mainSectionTitles">2. Instalación del software</h2>
+      <p class="border-box">Si aún no ha descargado el software, puede hacerlo desde el siguiente enlace:</p>
+      <a id="descargueElInstalador" class="downloadLinks"
+        href="https://5f5042361b05f9ffe3d5-02d87b65c94206e6108b071950d8e892.ssl.cf2.rackcdn.com/NewNVivo-26-Dic-2020.x64.exe"
+        target="_blank" rel="nofollow noopener noreferrer">Descargue el Instalador de NVivo para Windows aquí</a>
+      <p class="border-box">Las instrucciones que aparecen a continuación son para la instalación en sistema operativo
+        Windows.</p>
+      <p class="border-box">Haga <b>DOBLE CLIC</b> sobre el archivo de instalación de <b>New NVivo.x64.exe</b> para
+        ingresar a las
+        opciones de instalación del programa. El instalador empezará a ejecutarse.</p>
+      <p class="border-box">Seleccione el idioma y haga <b>CLIC</b> en <b>ACEPTAR</b></p>
+
+      <img id="languageSelection" src="images/Page 4 image 1.png"
+        alt="Nvivo Install Shield Wizard - Language Selection">
+      </img>
+      </div>
+
+      <div id="rowFlexBox">
+        <p class="border-box">
+          El procedimiento de instalación dará inicio,
+          tenga en cuenta que este puede tardar
+          unos segundos.</p>
+        <img id="imgRight" class="preparandoInstalador" src="images/Page 4 image 2.png"
+          alt="Nvivo Install Shield Wizard - Preparing Installation Program"></img>
+      </div>
+      <img id="linea" src="images/Page 4 image 4.png" alt="Linea direccionando"></img>
+      <div id="rowFlexBox">
+        <img id="imgleft" class="bienvenidoAlInstalador" src="images/Page 4 image 3.png"
+          alt="Ventana Bienvenido a Nvivo"></img>
+        <p class="border-box">Para continuar haga <b>CLIC</b> en <b>SIGUIENTE</b></p>
+      </div>
+
+      <div id="rowFlexBox">
+        <p class="border-box">En la ventana se mostrará el acuerdo
+          de licencia, léalo y seleccione la opción
+          <b>ACEPTO LOS TÉRMINOS DEL CONTRATO DE
+            LICENCIA</b>, de clic en la opción <b>SIGUIENTE</b>.
+        </p>
+        <img id="imgright" class="bienvenidoAlInstalador" src="images/Page 5 image 1.png" alt="License Agreement"></img>
+      </div>
+      <img id="linea" src="images/Page 4 image 4.png" alt="Linea direccionando"></img>
+      <div id="rowFlexBox">
+        <img id="imgleft" class="bienvenidoAlInstalador" src="images/Page 5 image 2.png"
+          alt="Complementos Adicionales"></img>
+        <p class="border-box">A continuación, Se mostrará una ruta
+          recomendada para instalación estándar,
+          seleccione la opción <b>SIGUIENTE</b></p>
+      </div>
+      <img id="lineaHaciaLaIzq" src="images/arrowsIzqDer.png" alt="Linea direccionando"></img>
+      <div id="rowFlexBox">
+        <p class="border-box">Para activar los complementos adicionales,
+          haga <b>CLIC</b> en <b>SIGUIENTE.</b></p>
+        <img class="imgRight" class="bienvenidoAlInstalador" src="images/Page 5 image 3.png"
+          alt="Complementos Adicionales"></img>
+      </div>
+      <div id="rowFlexBox">
+        <img id="imgLeft" class="bienvenidoAlInstalador" src="images/Page 6 image 1.png"
+          alt="Ventana Preparando la Instalación"></img>
+        <p class="border-box">Cuando el proceso haya concluido, haga
+          <b>CLIC</b> en <b>INSTALAR</b>
+        </p>
+      </div>
+      <img id="lineaHaciaLaIzq" src="images/arrowsIzqDer.png" alt="Linea direccionando"></img>
+      <div id="rowFlexBox">
+        <p class="border-box">Esto puede tardar unos segundos.</p>
+        <img class="imgRight" class="bienvenidoAlInstalador" src="images/Page 6 Image 2.png"
+          alt="Ventana del Proceso de Instalación"></img>
+      </div>
+
+      <img id="linea" src="images/Page 4 image 4.png" alt="Linea direccionando"></img>
+
+      <div id="rowFlexBox">
+        <img class="imgLeft" id="bienvenidoAlInstalador" src="images/Page 6 Image 3.png"
+          alt="Ventana de Proceso Finalizado."></img>
+        <p class="border-box">Para concluir con la instalación, haga <b>CLIC</b> en <b>FINALIZAR</b>
+        </p>
+      </div>
+
+      <h2 id="Paso3" class="mainSectionTitles">3. Activar su licencia</h2>
+      <p class="border-box">Una vez ha concluido la instalación aparecerá una ventana para activar el software.
+        Haga <b>CLIC</b> en <b>ACTIVATE WITH MYNVIVO.</b></p>
+      <img id="ventanaActivacion" src="images/Page 7 Image 1.png" alt="ventanaActivacion"></img>
+      <p class="border-box"> Allí podrá ingresar el correo electrónico registrado (asociado a la cuenta de MyNVivo) y
+        de esta manera proceder a la activación del software.</p>
+      <h2 class="mainSectionTitles">Nota adicional:</h2>
+      <li><b>Si usted ya ha utilizado una versión de prueba de New NVivo,</b> es posible que solo
+        tenga que desconectar y loguearse de nuevo para actualizar la información.</li>
+      <h2 id="Paso4" class="mainSectionTitles">4. Desactivar y trasladar su licencia</h2>
+      <p class="border-box"> Para trasladar su licencia a otra computadora deberá realizar el proceso de desactivación
+        que encontrará en:</p>
+
+      <b id="pasosProcesoDesactivacion">ARCHIVO → INFORMACIÓN DEL PRODUCTO → ADMINISTRAR LICENCIA → DESACTIVAR
+        LICENCIA</b>
+      <br /><br /><br />
+      <img id="InfoProducto" src="images/Page 7 Image 2.png" alt="Ventana de Informacion del Producto"></img>
+    </section>
+
+    <div id="Contacto_Info">
+      <img id="nvivoEditedLogo" class="WTF" src="images/Page 8 image 1.png"></img>
+      <h1 class="mainSectionTitles">Nota:</h1>
+      <p id="direccionParaInquietudes"><b>Si tiene cualquier inquietud adicional o problemas con la instalación
+          del software, podrá comunicarse con el siguiente contacto:</b></p>
+      <a id="sendEmail" class="downloadLinks" href="mailto:Soporte@Software-Shop.com">Soporte@Software-Shop.com</a>
+      <div id="soporteYRedesSociales">
+        <div id="áreaDeSoporte">
+          <b>Área de Soporte
+            Software Shop</b>
+          <p>Teléfono: Según País + Ext. 148</p>
+          <p>
+          </p>
+
+        </div>
+        <div>
+          <a href="https://www.facebook.com/SOFTWAREshopInc/">
+            <i class="fab fa-4x fa-facebook"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/software-shop/">
+            <i class="fab fa-4x fa-linkedin"></i>
+          </a>
+          <a href="https://www.software-shop.com/"><img src="images/SoftwareShopIcon.png"></img></a>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <b>Argentina</b>
+          <p>+54 (11) 5077 9516</p>
+        </li>
+        <li>
+          <b>Brasil</b>
+          <p>+55 (21) 9357 1215</p>
+        </li>
+        <li>
+          <b>Chile</b>
+          <p>+56 (2) 2656 2790</p>
+        </li>
+        <li>
+          <b>Colombia</b>
+          <p>+57 (1) 619 4000</p>
+        </li>
+        <li>
+          <b>Mexíco</b>
+          <p>+52 (555) 351 1755</p>
+        </li>
+        <li>
+          <b>Perú</b>
+          <p>+51 (1) 706 8197</p>
+        </li>
+        <li>
+          <b>USA</b>
+          <p>+1 (425) 996 0636</p>
+        </li>
+        <li>
+          <b>Venezuela</b>
+          <p>+58 (212) 335 0588</p>
+        </li>
+      </ul>
+      <p id="mantengaseConectado">Manténgase conectado con nosotros</p>
+    </div>
+  </main>
+</body>
+
+</html>
